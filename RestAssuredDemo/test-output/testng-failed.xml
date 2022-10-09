@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.anson.RestAssuredDemo.PostDemo">
+      <class name="org.anson.RestAssuredDemo.RestWithMock">
         <methods>
-          <include name="testPost_1"/>
+          <include name="deleteTest"/>
         </methods>
-      </class> <!-- org.anson.RestAssuredDemo.PostDemo -->
+      </class> <!-- org.anson.RestAssuredDemo.RestWithMock -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

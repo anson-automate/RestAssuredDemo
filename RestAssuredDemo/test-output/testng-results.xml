@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-09T11:33:10 IST" name="Default suite" finished-at="2022-10-09T11:33:13 IST" duration-ms="3635">
+  <suite started-at="2022-10-09T19:08:37 IST" name="Default suite" finished-at="2022-10-09T19:08:38 IST" duration-ms="1681">
     <groups>
     </groups>
-    <test started-at="2022-10-09T11:33:10 IST" name="Default test" finished-at="2022-10-09T11:33:13 IST" duration-ms="3635">
-      <class name="org.anson.RestAssuredDemo.PostDemo">
-        <test-method signature="testPost_1()[pri:0, instance:org.anson.RestAssuredDemo.PostDemo@37654521]" started-at="2022-10-09T11:33:10 IST" name="testPost_1" finished-at="2022-10-09T11:33:13 IST" duration-ms="3556" status="PASS">
+    <test started-at="2022-10-09T19:08:37 IST" name="Default test" finished-at="2022-10-09T19:08:38 IST" duration-ms="1681">
+      <class name="org.anson.RestAssuredDemo.RestWithMock">
+        <test-method signature="deleteTest()[pri:0, instance:org.anson.RestAssuredDemo.RestWithMock@101952da]" started-at="2022-10-09T19:08:37 IST" name="deleteTest" finished-at="2022-10-09T19:08:38 IST" duration-ms="1620" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPost_1 -->
-      </class> <!-- org.anson.RestAssuredDemo.PostDemo -->
+        </test-method> <!-- deleteTest -->
+      </class> <!-- org.anson.RestAssuredDemo.RestWithMock -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
