@@ -1,5 +1,7 @@
 package org.anson.RestAssuredDemo;
 
+import java.io.IOException;
+
 import org.testng.annotations.DataProvider;
 
 public class DataForTest {
@@ -14,7 +16,15 @@ public class DataForTest {
 	@DataProvider(name="delProvider")
 	public Object[] dataProDel(){
 		return new Object[]{
-			4,5
+			4,5,6,7,8,9,10,11,12
 		};
+	}
+	
+	@DataProvider(name="excelData")
+	public Object[][] excelDataPro() throws IOException {
+		Util exObj = new Util("./Resource/TestData.xlsx","Sheet1",3);
+		Object[][] dataObject = exObj.getTableData();
+		
+		return dataObject;
 	}
 }

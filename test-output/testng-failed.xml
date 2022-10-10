@@ -5,7 +5,7 @@
     <classes>
       <class name="org.anson.RestAssuredDemo.DataProvider2">
         <methods>
-          <include name="deleteTest" invocation-numbers="0 1"/>
+          <include name="postTestExcel"/>
         </methods>
       </class> <!-- org.anson.RestAssuredDemo.DataProvider2 -->
     </classes>
